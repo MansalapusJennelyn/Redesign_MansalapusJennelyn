@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    }
+
+form{
+    margin-top: 60px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.form-wrapper {
+    width:1000px;
+    height: 70rem;
+    background: #fff;
+    border-radius: 0 30px 30px;
+    box-shadow: 0 0.3rem 7rem rgba(63, 62, 62, 0.6);
+    position: relative;
+}
+h4 {
+    font-family: 'Irish Grover', cursive;
+    font-weight: 100px;
+    font-size:30px;
+    margin-left:-10px;
+    color: black;
+    z-index:1;
+    
+}
+li, a {
+    font-weight: bold;
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.banner {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    text-align: center;
+    color: #fff;
+    width: 40rem;
+    z-index: 1;
+}
+.logo{
+    width: 350px;
+    height: 350px;
+}
+.banner h3 {
+    font-family: 'Irish Grover', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 10px;
+}
+.banner p {
+    font-weight: 400px;
+    font-size: 15px;
+    font-family: 'Inria Sans', sans-serif;
+    line-height: 20px;
+    padding-top: 10px;
+    width: 75%;
+    margin: 0 auto;
+
+}
+.violet-bg {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(154.12deg, rgba(135, 44, 226, 0.226922) 0.57%, #7808E9 54.34%);
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.signup-form{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.signup-form h2 {
+    font-size: 20px;
+    font-family: 'Inria Sans', sans-serif;
+    padding-bottom: 10px;
+}
+.signup-form h1 {
+    font-family: 'Irish Grover', cursive;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.input-group input {
+    width: 350px;
+    height: 45px;
+    padding: 1px 1px 1px 5px;
+    background: #FFFFFF;
+    border: 1px solid #0E0D0D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.69);
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.input-group label {
+    font-size: 15px;
+}
+
+.checkbox{
+    padding: 5px 0;
+}
+.checkbox label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.signup-form button {
+    width: 13%;    
+    padding: 6px ;
+    background: #76059D;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 20px 0 10px;
+}
+
+.dropdown{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top:3rem;
+}
+
+.link a{
+    font-size: 12px;
+    font-weight: bold;
+    display:block;
+    text-decoration: none;
+    text-align: center;
+}
